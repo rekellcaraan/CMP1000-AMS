@@ -48,19 +48,18 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Sign in">
                                             <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="TappedSignedInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2dY-zz-n4d"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogc-C5-c8u">
                                         <rect key="frame" x="0.0" y="237.00000000000006" width="374.66666666666669" height="34.333333333333314"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="No Account Yet? Click here to register">
-                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                            <color key="baseForegroundColor" systemColor="systemGreenColor"/>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="yFH-hE-IU9" firstAttribute="top" secondItem="6lf-8M-Ty9" secondAttribute="topMargin" constant="400" id="HPe-FP-rIz"/>
-                                    <constraint firstItem="yFH-hE-IU9" firstAttribute="centerX" secondItem="6lf-8M-Ty9" secondAttribute="centerX" id="fpO-yu-goM"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -71,6 +70,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wgd-B3-bSx"/>
+                    <connections>
+                        <outlet property="UsernameField" destination="pb9-Ix-oOE" id="HfZ-Q3-inO"/>
+                        <outlet property="UserpasswordField" destination="X5Y-HQ-JoJ" id="IuX-fa-sbs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,9 +99,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

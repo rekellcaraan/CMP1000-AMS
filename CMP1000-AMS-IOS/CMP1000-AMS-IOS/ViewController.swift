@@ -9,15 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var UsernameField: UITextField!
+    
+    @IBOutlet weak var UserpasswordField: UITextField!
+    
     let amsCDContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
+    @IBAction func TappedSignedInButton(_ sender: UIButton) {
+        guard nil != UsernameField.text else {
+            return
+        }
+        let password = UserpasswordField.text!
+        let username = UsernameField.text!
+        getCurrentSignedUserRole(userName: username, userPassword: password)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-    func getCurrentSignedUserRole(userName: String) -> String
+    func getCurrentSignedUserRole(userName: String, userPassword: String) -> String
     {
         do
         {
