@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		383ECC23294BDE7500CC8AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC22294BDE7500CC8AD0 /* AppDelegate.swift */; };
-		383ECC25294BDE7500CC8AD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC24294BDE7500CC8AD0 /* SceneDelegate.swift */; };
-		383ECC27294BDE7500CC8AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC26294BDE7500CC8AD0 /* ViewController.swift */; };
-		383ECC2A294BDE7500CC8AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC28294BDE7500CC8AD0 /* Main.storyboard */; };
-		383ECC2D294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC2B294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */; };
-		383ECC2F294BDE7600CC8AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC2E294BDE7600CC8AD0 /* Assets.xcassets */; };
-		383ECC32294BDE7600CC8AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC30294BDE7600CC8AD0 /* LaunchScreen.storyboard */; };
+		383ECC46294BEAEB00CC8AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC45294BEAEB00CC8AD0 /* AppDelegate.swift */; };
+		383ECC48294BEAEB00CC8AD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC47294BEAEB00CC8AD0 /* SceneDelegate.swift */; };
+		383ECC4A294BEAEB00CC8AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC49294BEAEB00CC8AD0 /* ViewController.swift */; };
+		383ECC4D294BEAEB00CC8AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC4B294BEAEB00CC8AD0 /* Main.storyboard */; };
+		383ECC50294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC4E294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */; };
+		383ECC52294BEAEC00CC8AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC51294BEAEC00CC8AD0 /* Assets.xcassets */; };
+		383ECC55294BEAEC00CC8AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383ECC53294BEAEC00CC8AD0 /* LaunchScreen.storyboard */; };
+		383ECC60294C38F500CC8AD0 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5C294C38F500CC8AD0 /* Users+CoreDataClass.swift */; };
+		383ECC61294C38F500CC8AD0 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5D294C38F500CC8AD0 /* Users+CoreDataProperties.swift */; };
+		383ECC62294C38F500CC8AD0 /* Gathering+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5E294C38F500CC8AD0 /* Gathering+CoreDataClass.swift */; };
+		383ECC63294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5F294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		383ECC1F294BDE7500CC8AD0 /* CMP1000-AMS-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CMP1000-AMS-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		383ECC22294BDE7500CC8AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		383ECC24294BDE7500CC8AD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		383ECC26294BDE7500CC8AD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		383ECC29294BDE7500CC8AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		383ECC2C294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMP1000_AMS_IOS.xcdatamodel; sourceTree = "<group>"; };
-		383ECC2E294BDE7600CC8AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		383ECC31294BDE7600CC8AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		383ECC33294BDE7600CC8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383ECC42294BEAEB00CC8AD0 /* CMP1000-AMS-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CMP1000-AMS-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383ECC45294BEAEB00CC8AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		383ECC47294BEAEB00CC8AD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		383ECC49294BEAEB00CC8AD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		383ECC4C294BEAEB00CC8AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383ECC4F294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMP1000_AMS_IOS.xcdatamodel; sourceTree = "<group>"; };
+		383ECC51294BEAEC00CC8AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383ECC54294BEAEC00CC8AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		383ECC56294BEAEC00CC8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383ECC5C294C38F500CC8AD0 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		383ECC5D294C38F500CC8AD0 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		383ECC5E294C38F500CC8AD0 /* Gathering+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gathering+CoreDataClass.swift"; sourceTree = "<group>"; };
+		383ECC5F294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gathering+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		383ECC1C294BDE7500CC8AD0 /* Frameworks */ = {
+		383ECC3F294BEAEB00CC8AD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,47 +47,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		383ECC16294BDE7500CC8AD0 = {
+		383ECC39294BEAEB00CC8AD0 = {
 			isa = PBXGroup;
 			children = (
-				383ECC21294BDE7500CC8AD0 /* CMP1000-AMS-IOS */,
-				383ECC20294BDE7500CC8AD0 /* Products */,
+				383ECC44294BEAEB00CC8AD0 /* CMP1000-AMS-IOS */,
+				383ECC43294BEAEB00CC8AD0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		383ECC20294BDE7500CC8AD0 /* Products */ = {
+		383ECC43294BEAEB00CC8AD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				383ECC1F294BDE7500CC8AD0 /* CMP1000-AMS-IOS.app */,
+				383ECC42294BEAEB00CC8AD0 /* CMP1000-AMS-IOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		383ECC21294BDE7500CC8AD0 /* CMP1000-AMS-IOS */ = {
+		383ECC44294BEAEB00CC8AD0 /* CMP1000-AMS-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				383ECC22294BDE7500CC8AD0 /* AppDelegate.swift */,
-				383ECC24294BDE7500CC8AD0 /* SceneDelegate.swift */,
-				383ECC26294BDE7500CC8AD0 /* ViewController.swift */,
-				383ECC28294BDE7500CC8AD0 /* Main.storyboard */,
-				383ECC2E294BDE7600CC8AD0 /* Assets.xcassets */,
-				383ECC30294BDE7600CC8AD0 /* LaunchScreen.storyboard */,
-				383ECC33294BDE7600CC8AD0 /* Info.plist */,
-				383ECC2B294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */,
+				383ECC64294C390800CC8AD0 /* Data */,
+				383ECC45294BEAEB00CC8AD0 /* AppDelegate.swift */,
+				383ECC47294BEAEB00CC8AD0 /* SceneDelegate.swift */,
+				383ECC49294BEAEB00CC8AD0 /* ViewController.swift */,
+				383ECC4B294BEAEB00CC8AD0 /* Main.storyboard */,
+				383ECC51294BEAEC00CC8AD0 /* Assets.xcassets */,
+				383ECC53294BEAEC00CC8AD0 /* LaunchScreen.storyboard */,
+				383ECC56294BEAEC00CC8AD0 /* Info.plist */,
+				383ECC4E294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */,
 			);
 			path = "CMP1000-AMS-IOS";
+			sourceTree = "<group>";
+		};
+		383ECC64294C390800CC8AD0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				383ECC5F294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift */,
+				383ECC5E294C38F500CC8AD0 /* Gathering+CoreDataClass.swift */,
+				383ECC5D294C38F500CC8AD0 /* Users+CoreDataProperties.swift */,
+				383ECC5C294C38F500CC8AD0 /* Users+CoreDataClass.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		383ECC1E294BDE7500CC8AD0 /* CMP1000-AMS-IOS */ = {
+		383ECC41294BEAEB00CC8AD0 /* CMP1000-AMS-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 383ECC36294BDE7600CC8AD0 /* Build configuration list for PBXNativeTarget "CMP1000-AMS-IOS" */;
+			buildConfigurationList = 383ECC59294BEAEC00CC8AD0 /* Build configuration list for PBXNativeTarget "CMP1000-AMS-IOS" */;
 			buildPhases = (
-				383ECC1B294BDE7500CC8AD0 /* Sources */,
-				383ECC1C294BDE7500CC8AD0 /* Frameworks */,
-				383ECC1D294BDE7500CC8AD0 /* Resources */,
+				383ECC3E294BEAEB00CC8AD0 /* Sources */,
+				383ECC3F294BEAEB00CC8AD0 /* Frameworks */,
+				383ECC40294BEAEB00CC8AD0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +107,25 @@
 			);
 			name = "CMP1000-AMS-IOS";
 			productName = "CMP1000-AMS-IOS";
-			productReference = 383ECC1F294BDE7500CC8AD0 /* CMP1000-AMS-IOS.app */;
+			productReference = 383ECC42294BEAEB00CC8AD0 /* CMP1000-AMS-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		383ECC17294BDE7500CC8AD0 /* Project object */ = {
+		383ECC3A294BEAEB00CC8AD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					383ECC1E294BDE7500CC8AD0 = {
+					383ECC41294BEAEB00CC8AD0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 383ECC1A294BDE7500CC8AD0 /* Build configuration list for PBXProject "CMP1000-AMS-IOS" */;
+			buildConfigurationList = 383ECC3D294BEAEB00CC8AD0 /* Build configuration list for PBXProject "CMP1000-AMS-IOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +133,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 383ECC16294BDE7500CC8AD0;
-			productRefGroup = 383ECC20294BDE7500CC8AD0 /* Products */;
+			mainGroup = 383ECC39294BEAEB00CC8AD0;
+			productRefGroup = 383ECC43294BEAEB00CC8AD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				383ECC1E294BDE7500CC8AD0 /* CMP1000-AMS-IOS */,
+				383ECC41294BEAEB00CC8AD0 /* CMP1000-AMS-IOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		383ECC1D294BDE7500CC8AD0 /* Resources */ = {
+		383ECC40294BEAEB00CC8AD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383ECC32294BDE7600CC8AD0 /* LaunchScreen.storyboard in Resources */,
-				383ECC2F294BDE7600CC8AD0 /* Assets.xcassets in Resources */,
-				383ECC2A294BDE7500CC8AD0 /* Main.storyboard in Resources */,
+				383ECC55294BEAEC00CC8AD0 /* LaunchScreen.storyboard in Resources */,
+				383ECC52294BEAEC00CC8AD0 /* Assets.xcassets in Resources */,
+				383ECC4D294BEAEB00CC8AD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		383ECC1B294BDE7500CC8AD0 /* Sources */ = {
+		383ECC3E294BEAEB00CC8AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383ECC27294BDE7500CC8AD0 /* ViewController.swift in Sources */,
-				383ECC23294BDE7500CC8AD0 /* AppDelegate.swift in Sources */,
-				383ECC25294BDE7500CC8AD0 /* SceneDelegate.swift in Sources */,
-				383ECC2D294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld in Sources */,
+				383ECC62294C38F500CC8AD0 /* Gathering+CoreDataClass.swift in Sources */,
+				383ECC4A294BEAEB00CC8AD0 /* ViewController.swift in Sources */,
+				383ECC46294BEAEB00CC8AD0 /* AppDelegate.swift in Sources */,
+				383ECC48294BEAEB00CC8AD0 /* SceneDelegate.swift in Sources */,
+				383ECC60294C38F500CC8AD0 /* Users+CoreDataClass.swift in Sources */,
+				383ECC63294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift in Sources */,
+				383ECC61294C38F500CC8AD0 /* Users+CoreDataProperties.swift in Sources */,
+				383ECC50294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		383ECC28294BDE7500CC8AD0 /* Main.storyboard */ = {
+		383ECC4B294BEAEB00CC8AD0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				383ECC29294BDE7500CC8AD0 /* Base */,
+				383ECC4C294BEAEB00CC8AD0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		383ECC30294BDE7600CC8AD0 /* LaunchScreen.storyboard */ = {
+		383ECC53294BEAEC00CC8AD0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				383ECC31294BDE7600CC8AD0 /* Base */,
+				383ECC54294BEAEC00CC8AD0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		383ECC34294BDE7600CC8AD0 /* Debug */ = {
+		383ECC57294BEAEC00CC8AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		383ECC35294BDE7600CC8AD0 /* Release */ = {
+		383ECC58294BEAEC00CC8AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +308,7 @@
 			};
 			name = Release;
 		};
-		383ECC37294BDE7600CC8AD0 /* Debug */ = {
+		383ECC5A294BEAEC00CC8AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		383ECC38294BDE7600CC8AD0 /* Release */ = {
+		383ECC5B294BEAEC00CC8AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,20 +367,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		383ECC1A294BDE7500CC8AD0 /* Build configuration list for PBXProject "CMP1000-AMS-IOS" */ = {
+		383ECC3D294BEAEB00CC8AD0 /* Build configuration list for PBXProject "CMP1000-AMS-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				383ECC34294BDE7600CC8AD0 /* Debug */,
-				383ECC35294BDE7600CC8AD0 /* Release */,
+				383ECC57294BEAEC00CC8AD0 /* Debug */,
+				383ECC58294BEAEC00CC8AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		383ECC36294BDE7600CC8AD0 /* Build configuration list for PBXNativeTarget "CMP1000-AMS-IOS" */ = {
+		383ECC59294BEAEC00CC8AD0 /* Build configuration list for PBXNativeTarget "CMP1000-AMS-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				383ECC37294BDE7600CC8AD0 /* Debug */,
-				383ECC38294BDE7600CC8AD0 /* Release */,
+				383ECC5A294BEAEC00CC8AD0 /* Debug */,
+				383ECC5B294BEAEC00CC8AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -364,17 +388,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		383ECC2B294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */ = {
+		383ECC4E294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				383ECC2C294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */,
+				383ECC4F294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */,
 			);
-			currentVersion = 383ECC2C294BDE7500CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */;
+			currentVersion = 383ECC4F294BEAEB00CC8AD0 /* CMP1000_AMS_IOS.xcdatamodel */;
 			path = CMP1000_AMS_IOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 383ECC17294BDE7500CC8AD0 /* Project object */;
+	rootObject = 383ECC3A294BEAEB00CC8AD0 /* Project object */;
 }
