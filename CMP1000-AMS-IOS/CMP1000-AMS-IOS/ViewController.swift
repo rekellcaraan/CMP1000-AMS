@@ -16,13 +16,20 @@ class ViewController: UIViewController {
     
     let amsCDContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    @IBAction func TappedSignedInButton(_ sender: UIButton) {
+    @IBAction func TappedSignedInButton(_ sender: UIButton) throws {
         guard nil != UsernameField.text else {
-            return
+            throw SignInError.InvalidUsername
         }
         let password = UserpasswordField.text!
         let username = UsernameField.text!
-        getCurrentSignedUserRole(userName: username, userPassword: password)
+        do
+        {
+            try getCurrentSignedUserRole(userName: username, userPassword: password)
+        }
+        catch
+        {
+            print("Signin error!")
+        }
     }
     
     override func viewDidLoad() {
@@ -30,19 +37,36 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
     }
+    
+    enum SignInError : Error{
+        case MismatchUsernameAndPassword
+        case InvalidUsername
+    }
 
-    func getCurrentSignedUserRole(userName: String, userPassword: String) -> String
+    func getCurrentSignedUserRole(userName: String, userPassword: String) throws -> String
     {
         do
         {
             let users = try amsCDContext.fetch(Users.fetchRequest())
+            
+            guard users.count == 0 else{
+                throw SignInError.MismatchUsernameAndPassword
+            }
+            
+            for user in users
+            {
+                if user.username == userName && user.password == userPassword{
+                    
+                    break;
+                }
+            }
+            
+            throw SignInError.MismatchUsernameAndPassword
         }
         catch
         {
-            
+            throw SignInError.MismatchUsernameAndPassword
         }
-        
-        return ""
     }
     
     func saveCurrentSignedUser(userName: String, userRole: String, userPassword: String)

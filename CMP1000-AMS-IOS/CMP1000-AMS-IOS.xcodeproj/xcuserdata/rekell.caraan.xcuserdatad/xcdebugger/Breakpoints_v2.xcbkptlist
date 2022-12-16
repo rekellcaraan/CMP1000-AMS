@@ -8,14 +8,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "07E3B599-DCC2-480C-9A10-651DD6F30734"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CMP1000-AMS-IOS/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "getCurrentSignedUserRole(userName:userPassword:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "40A2A150-626D-45F4-B505-BF209EA74AF3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CMP1000-AMS-IOS/ViewController.swift"
@@ -33,6 +33,22 @@
             startingLineNumber = "20"
             endingLineNumber = "20"
             landmarkName = "TappedSignedInButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10FE71DE-9495-4715-B537-BBF4EBD1FAE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CMP1000-AMS-IOS/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getCurrentSignedUserRole(userName:userPassword:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
