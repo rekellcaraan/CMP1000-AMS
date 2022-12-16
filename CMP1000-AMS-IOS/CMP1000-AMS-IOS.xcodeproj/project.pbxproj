@@ -18,6 +18,7 @@
 		383ECC61294C38F500CC8AD0 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5D294C38F500CC8AD0 /* Users+CoreDataProperties.swift */; };
 		383ECC62294C38F500CC8AD0 /* Gathering+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5E294C38F500CC8AD0 /* Gathering+CoreDataClass.swift */; };
 		383ECC63294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC5F294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift */; };
+		383ECC67294C398C00CC8AD0 /* AMSWebApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ECC66294C398C00CC8AD0 /* AMSWebApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		383ECC5D294C38F500CC8AD0 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		383ECC5E294C38F500CC8AD0 /* Gathering+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gathering+CoreDataClass.swift"; sourceTree = "<group>"; };
 		383ECC5F294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gathering+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		383ECC66294C398C00CC8AD0 /* AMSWebApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSWebApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		383ECC44294BEAEB00CC8AD0 /* CMP1000-AMS-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				383ECC65294C396B00CC8AD0 /* Services */,
 				383ECC64294C390800CC8AD0 /* Data */,
 				383ECC45294BEAEB00CC8AD0 /* AppDelegate.swift */,
 				383ECC47294BEAEB00CC8AD0 /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				383ECC5C294C38F500CC8AD0 /* Users+CoreDataClass.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		383ECC65294C396B00CC8AD0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				383ECC66294C398C00CC8AD0 /* AMSWebApiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				383ECC4A294BEAEB00CC8AD0 /* ViewController.swift in Sources */,
 				383ECC46294BEAEB00CC8AD0 /* AppDelegate.swift in Sources */,
 				383ECC48294BEAEB00CC8AD0 /* SceneDelegate.swift in Sources */,
+				383ECC67294C398C00CC8AD0 /* AMSWebApiService.swift in Sources */,
 				383ECC60294C38F500CC8AD0 /* Users+CoreDataClass.swift in Sources */,
 				383ECC63294C38F500CC8AD0 /* Gathering+CoreDataProperties.swift in Sources */,
 				383ECC61294C38F500CC8AD0 /* Users+CoreDataProperties.swift in Sources */,
